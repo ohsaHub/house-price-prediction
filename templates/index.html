@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h2>Enter House Details</h2>
+    <form action="/predict" method="POST">
+        <!-- Descriptive names and labels -->
+        <label for="area">Area (sq ft):</label>
+        <input type="text" name="area" required><br>
+
+        <label for="bedrooms">Number of Bedrooms:</label>
+        <input type="text" name="bedrooms" required><br>
+
+        <label for="age">House Age (years):</label>
+        <input type="text" name="age" required><br>
+
+        <button type="submit">Predict Price</button>
+    </form>
+</body>
+</html>
