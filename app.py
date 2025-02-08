@@ -3,8 +3,6 @@ import joblib
 import numpy as np
 import os
 
-os.chdir(r"C:\Users\suean\END_TO_END_DATA_SCIENCE_PROJECTS\house-price-prediction")
-
 app = Flask(__name__) #initializes Flask application
 
 # Load the trained model
